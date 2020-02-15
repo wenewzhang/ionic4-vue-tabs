@@ -1,4 +1,4 @@
-    
+
 <template>
   <ion-page
     class="ion-page">
@@ -23,7 +23,6 @@ export default {
     }
   },
   onCreate() {
-    debugger;
   }
 };
 </script>

@@ -1,4 +1,4 @@
-    
+
 <template>
   <ion-page
     class="ion-page">
@@ -11,6 +11,9 @@
       <ion-item>
         THIS IS TAB 2
       </ion-item>
+      <ion-item v-model="tabshow">
+        Show
+      </ion-item>
     </ion-content>
   </ion-page>
 </template>
@@ -18,6 +21,11 @@
 <script>
 export default {
   name: 'tab2',
+  data() {
+    return {
+      tabshow: false
+    }
+  }
 }
 </script>
 
