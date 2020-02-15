@@ -1,4 +1,14 @@
 # ionic-tabs
+Upgrade to the latest packages on Feb 15, 2020
+
+### Add android supported
+```
+npm i
+npx cap add android
+npm run build
+npx cap copy
+npx cap open android
+```
 
 Updated December 22, 2019 to work with latest version of @ionic/vue
 
